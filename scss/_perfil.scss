@@ -1,0 +1,40 @@
+/* PERFIL */
+.ingresoPerfil{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ingresoPerfil input {
+    width: 90%;
+    height: 30px;
+    margin: 0.5rem;
+  }
+  
+  .ingresoPerfil button {
+    padding: 0.5em 1em;
+    border: none;
+    background: rgb(100, 200, 255);
+    cursor: pointer;
+  }
+  
+  .imgPerfil{
+    margin: 0px;
+    border-radius: 0em;
+  }
+  
+  .gridPerfil{
+    display: grid; 
+    grid-template-columns: auto auto auto auto auto auto;
+    margin: auto;
+  }
+  
+  .gridPerfil div{
+    height: 200px;
+    overflow: hidden;
+  }
+  /* */

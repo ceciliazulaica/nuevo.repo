@@ -1,0 +1,46 @@
+@charset "UTF-8";
+.tamaño23 {
+  font-size: 23px; }
+
+.tamaño26 {
+  font-size: 26px; }
+
+.tamaño29 {
+  font-size: 29px; }
+
+.red-hover-outline:hover {
+  outline: red solid 2px;
+  outline-offset: .2em; }
+
+.pink-hover-outline:hover {
+  outline: pink solid 2px;
+  outline-offset: .2em; }
+
+.orange-hover-outline:hover {
+  outline: orange solid 2px;
+  outline-offset: .2em; }
+
+.purple-hover-outline:hover {
+  outline: purple solid 2px;
+  outline-offset: .2em; }
+
+.centrado, .h2Prendas, .h2Accesorios, .h2Perfil, .h2Ofertas, .h2Index {
+  text-align: center; }
+
+.h2Prendas {
+  color: red; }
+
+.h2Accesorios {
+  color: pink; }
+
+.h2Perfil {
+  color: #eb9024; }
+
+.h2Ofertas {
+  color: orange; }
+
+.h2Index {
+  color: #eb9024; }
+
+.h2Blog {
+  color: purple; }

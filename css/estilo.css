@@ -1,0 +1,375 @@
+a:link, a:visited { color: #eb4886;
+    text-decoration: none;
+    font-family: 'Baloo Tammudu 2';
+
+}
+
+body{
+  margin: 0em;
+  padding-top: 10em;
+  min-height: 100vh;
+}
+header{
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 100;
+  padding: .5em 3em 0em 6em;
+  box-sizing: border-box;
+}
+
+header * {
+  box-sizing: content-box!important;
+}
+
+img{
+  margin: 0;
+  border-radius: 1em;
+}
+
+
+/* NAV BAR */
+.menuHamburguesa{
+  display: none !important;
+  width: 100% !important;
+}
+.menuHamburguesa i{
+  color: #eb4886;
+ }
+.nav-item{
+  text-align: center;
+}
+
+.toggler-example{
+  float: right;
+}
+
+.listaNav{
+  padding: 0em 2em;
+  position:inherit;
+}
+
+.listaNav a:hover{
+  color:rgb(245, 149, 114); 
+}
+
+.listaNav ul{
+  padding-top: .6em;
+}
+
+.carrito{
+  position:absolute;
+  top: 4em;
+  right: 11em;
+  margin-left: 13em;
+}
+.carrito a:hover{
+  color:rgb(245, 149, 114);
+}
+
+.perfil{
+  position:absolute;
+  top: 4em;
+  right: 8em;
+}
+.perfil a:hover{
+  color:rgb(245, 149, 114);
+}
+
+li{
+  display: inline-block;
+  position:relative;  
+}
+/* */
+
+footer{
+  background-image: linear-gradient(#cf0b57, #eb4886);
+  height: 20px;
+  padding: 10px;
+  margin-bottom: 0%;
+  box-sizing: content-box;
+}
+
+footer p{
+  color: white;
+  font-family: 'Baloo Tammudu 2';
+  font-style: thin;
+  text-align: right;
+  margin:0;
+}
+
+/* SUBMENÚ */
+ul{
+  list-style: none;
+}
+ul ul {
+  position: absolute;
+  display: none;
+  margin-left: -2em;
+}
+ul ul li {
+  display: block;
+  color: #cf0b57;
+  text-decoration: none;
+  font-family: 'Baloo Tammudu 2';
+  background-color: white;
+  font-size: 15px;
+}
+ul li:hover ul {
+  display:block;
+}
+/* */
+
+
+/* TEXTOS */
+h2{
+  color:rgb(235, 144, 36);
+  font-weight: 500;
+  font-size: 25px;
+  font-style: normal;
+  font-family: 'Bebas Neue';
+  letter-spacing: 2px;
+  text-align:left;
+  text-decoration: underline;
+}
+
+
+.divExterno > div{
+  position: absolute;
+  top: -10em;
+}
+.divExterno{
+  position: relative;
+}
+
+/* */
+
+/* INDEX */
+.foto{
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 1s;
+}
+.foto:hover{
+  transform: scale(1.2);
+}
+
+#carouselExampleControls{
+  width: 60%;
+  margin: auto auto 2em auto;
+}
+/* */
+
+/* PRENDAS */
+#main{
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+ }
+ 
+ #main .prenda{
+   text-align: right;
+   margin: 0.5em 1em;
+ }
+ #main .prenda form *{
+   display: inline-block;
+ }
+
+/* ACCESORIOS*/
+#secAccesorios .prenda img{
+  max-height: 392px;
+
+}
+
+
+/*  BLOG */
+
+.seccionBlog{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.fondoBlog{
+  width: 65%;
+}
+
+.fondoPlaylist{
+  background-color: rgb(232, 173, 240);
+  border-radius: 1rem;
+  width: 30%;
+}
+
+.fondoPlaylist iframe{
+  margin: 1em 10%;
+}
+.fondoPlaylist h2{
+  color: white;
+  text-align: center;
+}
+
+iframe{
+  border-radius: 1em;
+  width: 80%;
+}
+
+.listaLibros{
+  color: rgb(206, 76, 127);
+  font-style: italic;
+}
+
+.recomendaciones{
+  display: list-item;
+  margin-left: 2em;
+ }
+
+hr{
+  display: none;
+  color: none;
+ }
+ 
+/* */
+
+
+/* OFERTAS */
+.fotoDescuentos{
+  height: 200px;
+  width: 200px;
+  border-radius: 0em;
+}
+
+.secDescuentos > div{
+  margin: 1em;
+}
+
+.botoncomprar{
+  margin: auto;
+  display: flex;
+  margin-top: 2px;
+}
+/* */
+
+/* PERFIL */
+.ingresoPerfil{
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ingresoPerfil input {
+  width: 90%;
+  height: 30px;
+  margin: 0.5rem;
+}
+
+.ingresoPerfil button {
+  padding: 0.5em 1em;
+  border: none;
+  background: rgb(100, 200, 255);
+  cursor: pointer;
+}
+
+.imgPerfil{
+  margin: 0px;
+  border-radius: 0em;
+}
+
+.gridPerfil{
+  display: grid; 
+  grid-template-columns: auto auto auto auto auto auto;
+  margin: auto;
+}
+
+.gridPerfil div{
+  height: 200px;
+  overflow: hidden;
+}
+/* */
+
+/* CARRITO */
+
+.tablaCarrito{
+  background-color:rgb(184, 201, 247);
+  background-size: cover;
+  margin-left: 1em;
+}
+
+th{
+  color:rgb(49, 99, 64);
+  text-align: center;
+}
+
+.formularioPagos{
+  border: 1px solid rgb(206, 76, 127);
+  background-color: white;
+  float: right;
+  margin: 0 5em;
+  padding: 1em;
+  margin-bottom: 2em;
+  height: 20em;
+ 
+}
+
+.contenedorCarrito{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#botonListo{
+  background-color: rgb(206, 76, 127);
+  margin-bottom: 1em;
+  margin-left: 1em;
+  border-color: rgb(206, 76, 127);
+}
+
+#dropdownMenuButton1{
+  background-color:rgb(235, 144, 36);
+  border-color: rgb(235, 144, 36);
+  font-size: 13px;
+}
+/* */
+
+@media only screen and (max-width: 1000px) {
+  .carrito , .perfil {
+    position: inherit;
+    margin: 0em 1em;
+  }
+
+}
+
+@media only screen and (max-width: 800px) {
+  .fondoBlog{
+    width: 90%;
+
+  }
+  
+  .fondoPlaylist{
+    width: 100%;
+  }
+
+  .menuHamburguesa{
+    display: inherit!important;
+  }
+
+  .menuNormal{
+    display: none;
+  }
+}
+
+
+

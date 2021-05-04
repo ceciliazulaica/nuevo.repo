@@ -1,0 +1,36 @@
+
+
+@for $i from 1 through 3 {
+    .tamaño#{20+$i*3} { font-size: 20px + $i *3; }
+  } 
+  
+  @each $color in red,pink,orange,purple {
+    .#{$color}-hover-outline:hover { 
+        outline: #{$color} solid 2px;
+        outline-offset: .2em;
+     }
+ } 
+ 
+ .centrado {
+     text-align: center;
+ }
+
+ $h2map: ( 
+    h2Prendas: red,
+    h2Accesorios: pink,
+    h2Perfil: rgb(235, 144, 36),
+    h2Ofertas: orange,
+    h2Index: rgb(235, 144, 36),
+    h2Blog: purple
+); 
+
+@each $h2,$color in $h2map {
+    .#{$h2} {
+       @if $h2 != h2Blog{ @extend .centrado;}
+        color:#{$color};
+    }
+    
+}
+
+
+  

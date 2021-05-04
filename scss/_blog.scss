@@ -1,0 +1,47 @@
+/*  BLOG */
+
+.seccionBlog{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .fondoBlog{
+    width: 65%;
+  }
+  
+  .fondoPlaylist{
+    background-color: rgb(232, 173, 240);
+    border-radius: 1rem;
+    width: 30%;
+  }
+  
+  .fondoPlaylist iframe{
+    margin: 1em 10%;
+  }
+  .fondoPlaylist h2{
+    color: white;
+    text-align: center;
+  }
+  
+  iframe{
+    border-radius: 1em;
+    width: 80%;
+  }
+  
+  .listaLibros{
+    color: rgb(206, 76, 127);
+    font-style: italic;
+  }
+  
+  .recomendaciones{
+    display: list-item;
+    margin-left: 2em;
+   }
+  
+  hr{
+    display: none;
+    color: none;
+   }
+   
+  /* */
